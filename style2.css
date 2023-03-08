@@ -1,0 +1,33 @@
+/* Font */
+@font-face {
+  font-family: 'Frozito', sans-serif;
+  src: url('/frozito-font/Frozito.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Frozito', sans-serif;
+  background-color: #61c4ff;
+  background-image: url('https://wallpaperaccess.com/full/1912551.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.background-blur {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: url('https://wallpaperaccess.com/full/1912551.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(5px);
+}
+
+h1 {
+  padding-top: 150px;
+  font-size: 150px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
